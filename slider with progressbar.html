@@ -1,0 +1,105 @@
+
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap.min.css">
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap-theme.min.css">
+
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/js/bootstrap.min.js"></script>
+
+
+//add little css
+<style type="text/css">
+	.item{
+    background: #333;    
+    text-align: center;
+    height: 200px !important;
+}
+.control-buttons{
+	text-align:center;
+}
+.transition-timer-carousel-progress-bar {
+    height: 3px;
+    background-color: #5cb85c;
+    width: 0%;
+    margin: 0px 0px 0px 0px;
+    border: none;/*
+    z-index: 11;
+    position: relative;*/
+}
+</style>
+
+
+<script type="text/javascript">
+	$(document).ready(function(){
+      var percent = 0, bar = $('.transition-timer-carousel-progress-bar'), crsl = $('#myCarousel');
+			function progressBarCarousel() {
+			  bar.css({width:percent+'%'});
+			 percent = percent +0.5;
+			  if (percent>100) {
+			      percent=0;
+			      crsl.carousel('next');
+			  }      
+			}
+
+			//carousel progress bar moving delay
+			crsl.carousel()
+      /*({
+			    interval: false,
+			    pause: true
+			})*/
+      .on('.carousel', function () {});
+
+			// initiate progress bar (moving interval and moving function)
+			var barInterval = setInterval(progressBarCarousel, 30);
+
+ 			//stop progress bar on hover  
+			/*crsl.hover(
+			    function(){
+			        clearInterval(barInterval);
+			    },
+			    function(){
+			        barInterval = setInterval(progressBarCarousel, 30);
+          })*/
+
+
+    });
+</script>
+</head>
+	<body>
+				    <div id="myCarousel" class="carousel slide" data-interval="false" data-ride="carousel">
+
+				    	        <ol class="carousel-indicators">
+						            <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
+						            <li data-target="#myCarousel" data-slide-to="1"></li>
+						            <li data-target="#myCarousel" data-slide-to="2"></li>
+						        </ol> 
+				        <!-- Carousel items -->
+				        <div class="carousel-inner">
+				            <div class="active item">
+                        <div class="container">
+				         		<div class="carousel-caption">
+				                  <h3>First slide label</h3>
+				                  <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+				                </div>
+                        </div>
+				            </div>
+				            <div class="item">
+                        <div class="container">
+				                <div class="carousel-caption">
+				                  <h3>Second slide label</h3>
+				                  <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+				                </div>
+                        </div>
+				            </div>
+				            <div class="item">
+                        <div class="container">
+				                <div class="carousel-caption">
+				                  <h3>Third slide label</h3>
+				                  <p>Praesent commodo cursus magna, vel scelerisque nisl consectetur.</p>
+				                </div>
+                        </div>
+				            </div>
+				        </div>
+				    </div>
+				        <hr class="transition-timer-carousel-progress-bar" />
+
+ 
