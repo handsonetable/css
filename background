@@ -1,3 +1,4 @@
 background: -webkit-linear-gradient(top, orange, gold);
 background: -webkit-radial-gradient(tomato , gold);
 background: background: -webkit-linear-gradient(top, black, MidnightBlue 70%); 
+//repeated line background: background: repeating-linear-gradient( -45deg, #e6f4ff, #e6f4ff 2px, #fff 3px, #fff 8px);
