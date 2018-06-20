@@ -1,1 +1,2 @@
 background: -webkit-linear-gradient(top, orange, gold);
+background: -webkit-radial-gradient(tomato , gold);
