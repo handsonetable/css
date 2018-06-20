@@ -1,1 +1,2 @@
-box shadow:0 0 20px gold, 0 0 40px gold, 0 0 60px gold, 0 0 100px gold;
+//radial glow   box shadow:0 0 20px gold, 0 0 40px gold, 0 0 60px gold, 0 0 100px gold;
+//3 cube shadow  box-shadow:0 0 20px gold, 100px 0 5px cadetblue, 100px 0 30px cadetblue, 200px 0 5px lightseagreen, 200px 0 5px lightseagreen
