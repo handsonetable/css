@@ -2,7 +2,19 @@ http://leaverou.github.io/animatable/
 https://www.w3.org/Talks/2012/0416-CSS-WWW2012/Demos/transitions/examples-hardboiled/3d.html
 
 //rotate div on hover
+
 #div2:hover {
     -webkit-backface-visibility: visible;
     -webkit-transform: rotateY(180deg);
+}
+
+
+//blink animation with seconds
+
+.blinkThis {
+    animation-name: blink;
+    animation-duration: .2s;
+    animation-timing-function: step-end;
+    animation-iteration-count: infinite;
+    animation-direction: alternate;
 }
