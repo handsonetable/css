@@ -1,0 +1,12 @@
+ //custom css for scrollbar
+          body::-webkit-scrollbar {
+            width: 0.6em;
+            }
+            body::-webkit-scrollbar-track {
+            -webkit-box-shadow: inset 0 0 7px rgba(230,230,250,0.8);
+            }
+            body::-webkit-scrollbar-thumb {
+            background-color: pink;
+            outline: 1px solid slategrey;
+            border-radius: 50px;
+            }
