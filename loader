@@ -1,0 +1,19 @@
+<div id="loading" style="/* display: none; */">
+            <div id="loading-center">
+                <div id="loading-center-absolute">
+                    <div class="object" id="object_one" style="background: #36a3f7;"></div>
+                    <div class="object" id="object_two" style="background: #ffb822;"></div>
+                    <div class="object" id="object_three" style="background: #34bfa3;"></div>
+                    <!-- <div class="object" id="object_four"></div>
+                    <div class="object" id="object_five"></div>
+                    <div class="object" id="object_six"></div>
+                    <div class="object" id="object_seven"></div>
+                    <div class="object" id="object_eight"></div>
+                    <div class="object" id="object_nine"></div> -->
+                </div>
+            </div>
+        </div>
+        
+        //css
+        
+        
