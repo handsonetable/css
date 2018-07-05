@@ -1,3 +1,10 @@
 td:nth-child(5) //tr child selector using index
 .blinkDateClass::-webkit-input-placeholder //input placeholder 
 li[data-type='veg'] //using attribute with comparing value
+span::before //start of span element
+
+
+
+
+//css
+content: attr(data-tooltip); //get attribute value in content css
