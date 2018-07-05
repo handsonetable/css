@@ -1,0 +1,12 @@
+
+.blinkThis{				               	 	
+	animation-name: blink ;
+    animation-duration: .2s ;
+    animation-timing-function: step-end ;
+    animation-iteration-count: infinite ;
+    animation-direction: alternate ;
+}
+@keyframes blink { 
+               50% { border-color: #ff0000; }
+               50% { color: #ff0000; }
+            }
