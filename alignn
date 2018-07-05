@@ -6,3 +6,10 @@
   left: 50%;
   width:100%;
 }
+
+//vertically align
+#div{
+    position: relative;
+    top: 50%;
+    transform: translateY(50%);
+    }
