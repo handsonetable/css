@@ -18,3 +18,9 @@ https://www.w3.org/Talks/2012/0416-CSS-WWW2012/Demos/transitions/examples-hardbo
     animation-iteration-count: infinite;
     animation-direction: alternate;
 }
+
+
+//spin(rotate for icon)
+//using font awesome
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+fa-spin //add class to i
