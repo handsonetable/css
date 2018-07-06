@@ -24,3 +24,23 @@ https://www.w3.org/Talks/2012/0416-CSS-WWW2012/Demos/transitions/examples-hardbo
 //using font awesome
 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 fa-spin //add class to i
+
+
+
+
+//animate like progress using keyframes
+.progressing{
+	 -webkit-animation: mymove infinite; /* Safari 4.0 - 8.0 */
+    -webkit-animation-duration: 3s; /* Safari 4.0 - 8.0 */
+    animation: mymove infinite;
+    animation-duration: 3s; //animation timing-3 seconds
+    -webkit-animation-iteration-count: 1; 
+    animation-iteration-count: 1; //animation loop count
+    animation-fill-mode: forwards; //stop where animation end-animation filled
+}
+
+/* function name mymove*/
+@-webkit-keyframes mymove {
+    from {width: 0%;}
+    to {width: 50%;}
+}
