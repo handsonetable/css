@@ -13,3 +13,12 @@
     top: 50%;
     transform: translateY(50%);
     }
+
+
+
+//horizontally center(div inside ul place horizontally center)
+#mydiv{
+    margin: 0px auto;
+    float: none;
+    display: table;
+    }
