@@ -22,3 +22,9 @@
     float: none;
     display: table;
     }
+
+//text straight line
+white-space: nowrap ;
+
+//align body
+margin:0 auto auto auto;
