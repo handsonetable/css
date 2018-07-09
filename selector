@@ -4,7 +4,7 @@ li[data-type='veg'] //using attribute with comparing value
 span::before //start of span element
 span > .div //inside span div tag select
 table tr:nth-child(odd) //for selecting odd rows lke 1,3,5,7,9.. and even for selecting 2,4,6,8...
-
+p:nth-of-type(2n+0) //select row parallel 2 rows continuously
 
 //css
 content: attr(data-tooltip); //get attribute value in content css
