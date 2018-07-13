@@ -5,3 +5,20 @@
       border-radius: 40% 0%;
       margin: 0 10px 0 0;
       border: 1px solid #ddd;
+
+//div triangle at bottom
+      .triangle:before {
+          border-right: 10000px solid transparent;
+          -webkit-transform: translateX(-100%);
+          transform: translateX(-100%);
+           }
+      .triangle:before, .triangle:after {
+          content: "";
+          position: absolute;
+          width: 0;
+          height: 0;
+          border-bottom: 1670px solid #fff;
+          top: -1669px;
+          left: 50%;
+          z-index: -10;
+          }
