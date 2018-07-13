@@ -1,0 +1,2 @@
+//slanting rectangle
+      transform: skewX(-30deg);
