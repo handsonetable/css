@@ -1,2 +1,7 @@
 //slanting rectangle
       transform: skewX(-30deg);
+
+//leaf shape image
+      border-radius: 40% 0%;
+      margin: 0 10px 0 0;
+      border: 1px solid #ddd;
