@@ -22,3 +22,19 @@
           left: 50%;
           z-index: -10;
           }
+
+//arrow bottom
+     span {
+    border-bottom: 1px solid #a0ce4e;
+    border-left: 1px solid #a0ce4e;
+    bottom: -20px;
+    transform: rotate(-45deg);
+    content: "";
+    height: 40px;
+    left: 50%;
+    margin-left: -20px;
+    position: absolute;
+    width: 40px;
+    z-index: 100;
+    background: #a0ce4e;
+    }
