@@ -1,2 +1,8 @@
 //remove overflow:auto;
   overflow:visible;
+
+
+//modal inside screen without display outside of screen
+        overflow: auto;
+        max-height: calc(100vh - 125px);
+        overflow-y: hidden;
