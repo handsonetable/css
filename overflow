@@ -6,3 +6,11 @@
         overflow: auto;
         max-height: calc(100vh - 125px);
         overflow-y: hidden;
+
+                or
+
+
+        $('#myModal').on('show.bs.modal', function () {
+            $('.modal .modal-body').css('overflow-y', 'auto'); 
+            $('.modal .modal-body').css('max-height', $(window).height() * 0.7);
+        });
